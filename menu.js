@@ -4,7 +4,7 @@ const actions = document.querySelector("#actions");
 const renderMenu = (nombre) => {
   let menu = `
   <div>
-    <h1>Bienvenido ${nombre}</h1>
+    <h1 class="center">Bienvenido ${nombre}</h1>
     <div class="row">
       <div class="col">
         <a class="btn btn-success" href="#" role="button" onClick="consultar()">Consultar</a>

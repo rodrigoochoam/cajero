@@ -12,6 +12,9 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
+  <section id="bienvenida">
+    <h1>BancoROM S.A. DE C.V.</h1>
+  </section>
   <body class="d-flex flex-column ">
     <div id="wrapper">
       <form id="select-account">
@@ -22,7 +25,7 @@
         >
           <option selected>Seleccione una cuenta</option>
         </select>
-        <button type="submit" class="btn btn-dark mt-3">Ingresar</button>
+        <button type="submit" class="btn btn-dark mt-3 btn-lg">Ingresar</button>
       </form>
     </div>
     <div id="actions" class="mt-4"></div>
@@ -30,7 +33,7 @@
       <input
         type="number"
         id="amount"
-        class="form-control"
+        class="form-control wider-input"
         placeholder="Ingresa el monto"
       />
     </div>
@@ -40,7 +43,7 @@
         type="number"
         id="amount"
         class="form-control"
-        placeholder="Ingresa el monto"
+        placeholder="$ Ingresa el monto"
       />
       <div id="insufficient-funds-alert" class="alert alert-danger mt-2 d-none">
         No hay fondos suficientes
